@@ -10,7 +10,7 @@
 
 **Phone**: +998(99)981-66-27 <br />
 **Email**: *islomnumanov.uz@gmail.com* <br />
-**Website** [islomnumanov.uz //soon](https://www.islomnumanov.uz)
+**Website** [islomnumanov.uz //soon](https://www.islomnumanov.uz) <br/>
 [![Linkedin Badge](https://img.shields.io/badge/-islomnumanov.uz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/islom-numanov-19a029217/)](https://www.linkedin.com/in/islom-numanov-19a029217/)<br />
 [![Instagram Badge](https://img.shields.io/badge/-@islomnumanov.uz-D7008A?style=flat-square&labelColor=D7008A&logo=Instagram&logoColor=white&link=https://www.instagram.com/islomnumanov.uz/)](https://www.instagram.com/islomnumanov.uz/)<br />
 [![Telegram Badge](https://img.shields.io/badge/@islomnumanov_uz-2CA5E0?style=flat-square&logo=telegram&logoColor=white&link=https://t.me/islomnumanov_uz)](https://t.me/islomnumanov_uz)<br />
@@ -24,15 +24,18 @@ I am always open to collaborating on projects and innovative/disruptive ideas. F
 
 ## Technologies and Skills
 
-- HTML5 ![Image](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) <br/>
-- Css3 ![Image](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3) <br/>
-- Sass ![Image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) <br />
-- TailwindCSS ![Image](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) <br />
-- Bootstrap 4/5 ![Image](https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap) <br/>
-- Git ![Image](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) <br />
-- GitHub ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-- JavaScript ![Image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) <br />
-- ReactJs ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-- Figma ![Image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) <br/>
-- Linux ![Image](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) <br/>
-- Ubuntu ![Image](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) <br/>
+    Имя    | Возраст
+
+-----------|:-------:
+HTML5 | ![Image](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+Css3 | ![Image](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
+Sass | ![Image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+TailwindCSS | ![Image](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+Bootstrap | ![Image](https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
+Git | ![Image](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+GitHub | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+JavaScript | ![Image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+ReactJs | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+Figma | ![Image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+Linux | ![Image](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+Ubuntu | ![Image](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
