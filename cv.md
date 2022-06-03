@@ -26,7 +26,7 @@ I am always open to collaborating on projects and innovative/disruptive ideas. F
 
 ## Technologies and Skills
 
-| Имя         | Возраст                                                                                                          |
+| Name        | Icon                                                                                                             |
 | ----------- | ---------------------------------------------------------------------------------------------------------------- |
 | HTML5       | ![Image](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)              |
 | Css3        | ![Image](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)                                |
@@ -49,9 +49,9 @@ I am always open to collaborating on projects and innovative/disruptive ideas. F
 
 ```
 const fromZeroToFifteen = (n1, n2) => {
-for (let i = n1; i <= n2; i++) {
-i % 2 !== 0 ? console.log(`${i} => odd`) : console.log(`${i} => even`);
-}
+  for (let i = n1; i <= n2; i++) {
+    i % 2 !== 0 ? console.log(`${i} => odd`) : console.log(`${i} => even`);
+  }
 };
 fromZeroToFifteen(0, 15);
 
