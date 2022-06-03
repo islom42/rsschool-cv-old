@@ -22,6 +22,8 @@
 I am Islom Numanov. I am a Front-end developer. I solve problems, automate things, help businesses and people to grow and improve life.
 I am always open to collaborating on projects and innovative/disruptive ideas. Find out more about me & feel free to connect with me
 
+---
+
 ## Technologies and Skills
 
 | Имя         | Возраст                                                                                                          |
@@ -38,3 +40,37 @@ I am always open to collaborating on projects and innovative/disruptive ideas. F
 | Figma       | ![Image](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)               |
 | Linux       | ![Image](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)               |
 | Ubuntu      | ![Image](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)             |
+
+---
+
+## Example code
+
+### Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if he current number is odd or even, and display a message to the screen.
+
+```
+const fromZeroToFifteen = (n1, n2) => {
+for (let i = n1; i <= n2; i++) {
+i % 2 !== 0 ? console.log(`${i} => odd`) : console.log(`${i} => even`);
+}
+};
+fromZeroToFifteen(0, 15);
+
+```
+
+---
+
+## Courses
+
+- Programming Foundation _Stella School_
+- HTML, CSS _Web Brain academy_
+- JavaScript and React Js _Web Brain Academy_ (in progress)
+- Rs School 2022Q2 stage0 (in progress)
+
+---
+
+## Languages
+
+- English (B1)
+- Russian
+- Turkish (A1)
+- Uzbek (native)
