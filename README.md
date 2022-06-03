@@ -1,2 +1,2 @@
 # rsschool-cv
-CV - Rs school
+## https://islomnumanovuz.github.io/rsschool-cv/cv
