@@ -2,11 +2,11 @@
 
 ---
 
-## Front-end developer from new Uzbekistan
+### Front-end developer from new Uzbekistan
 
 ---
 
-## Get in touch
+### Get in touch
 
 **Phone**: +998(99)981-66-27 <br />
 **Email**: *islomnumanov.uz@gmail.com* <br />
@@ -17,14 +17,14 @@
 
 ---
 
-## About me
+### About me
 
 I am Islom Numanov. I am a Front-end developer. I solve problems, automate things, help businesses and people to grow and improve life.
 I am always open to collaborating on projects and innovative/disruptive ideas. Find out more about me & feel free to connect with me
 
 ---
 
-## Technologies and Skills
+### Technologies and Skills
 
 | Name        | Icon                                                                                                             |
 | ----------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -43,7 +43,7 @@ I am always open to collaborating on projects and innovative/disruptive ideas. F
 
 ---
 
-## Example code
+### Example code
 
 ### Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if he current number is odd or even, and display a message to the screen.
 
@@ -59,7 +59,7 @@ fromZeroToFifteen(0, 15);
 
 ---
 
-## Courses
+### Courses
 
 - Programming Foundation _Stella School_
 - HTML, CSS _Web Brain academy_
@@ -68,7 +68,7 @@ fromZeroToFifteen(0, 15);
 
 ---
 
-## Languages
+### Languages
 
 - English (B1)
 - Russian
