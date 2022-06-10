@@ -1,0 +1,16 @@
+.container {
+  max-width: 1230px;
+  width: 1130px;
+  min-height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 50px auto;
+  border-radius: 5px solid;
+  box-shadow: $outer-shadow;
+  padding: 0 20px;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}

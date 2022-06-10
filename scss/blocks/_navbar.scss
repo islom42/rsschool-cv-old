@@ -1,0 +1,41 @@
+.nav {
+  padding: 20px;
+  @include flex-default;
+  &__brand {
+    @include flex-default;
+    width: 140px;
+    font-family: "Press Start 2P", sans-serif;
+    transition: all 0.3s ease;
+    &:hover {
+      filter: drop-shadow(-8px -4px 10px $primary-color);
+    }
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  &__items {
+    @include flex-default;
+    @include reset-list;
+  }
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      display: inline-block;
+      width: 0;
+      height: 3px;
+      transition: all 0.5s ease;
+      background-color: $primary-color;
+    }
+  }
+  &__link:hover::before {
+    width: 76%;
+  }
+}
