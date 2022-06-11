@@ -65,3 +65,15 @@
   cursor: pointer;
   outline: inherit;
 }
+@mixin default-transition {
+  transition: all 0.3s ease;
+}
+@mixin cursor {
+  cursor: pointer;
+  user-select: none;
+}
+@mixin nav-dark {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}

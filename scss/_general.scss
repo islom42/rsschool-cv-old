@@ -21,6 +21,18 @@ body {
   font-size: 20px;
   line-height: 1.5;
   background-color: $bg-black-50;
+  @include default-transition;
+}
+
+body.dark {
+  background-color: $bg-dark-black-50;
+  .container {
+    box-shadow: $outer-dark-shadow;
+  }
+  .nav__link,
+  .nav__brand {
+    color: $text-dark-black-700;
+  }
 }
 
 img {

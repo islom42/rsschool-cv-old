@@ -23,16 +23,15 @@
       href="./images/favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="./images/favicon_io/site.webmanifest" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="body">
     <div class="container">
+      <!-- Header section -->
       <header id="header" class="header">
         <nav class="nav">
           <a href="index.html" class="nav__brand">
             <svg
-              version="1.2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 500 500"
               width="45"
@@ -54,6 +53,17 @@
           </a>
           <ul class="nav__items">
             <li class="nav__item">
+              <input
+                class="nav__input"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+              />
+              <label for="checkbox" class="nav__dark">
+                <span class="nav__dark--circle"></span>
+              </label>
+            </li>
+            <li class="nav__item">
               <a href="#" class="nav__link">About me</a>
             </li>
             <li class="nav__item">
@@ -70,7 +80,7 @@
             </li>
           </ul>
           <button class="btn-reset">
-            <span id="hamburger" onclick="this.classList.toggle('open');">
+            <span id="nav__toggle--btn">
               <svg width="43" height="43" viewBox="0 0 100 100">
                 <path
                   class="line line1"
@@ -86,7 +96,8 @@
           </button>
         </nav>
       </header>
-      <section style="height: 100vh; padding: 100px 0"></section>
+      <!-- /Header section -->
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,11 +1,16 @@
+#header {
+  border-bottom: 2px solid $primary-color;
+}
 .nav {
   padding: 20px;
   @include flex-default;
   &__brand {
     @include flex-default;
-    width: 140px;
+    @include cursor;
+    width: 220px;
     font-family: "Press Start 2P", sans-serif;
     transition: all 0.3s ease;
+    color: $text-black-700;
     &:hover {
       filter: drop-shadow(-8px -4px 10px $primary-color);
     }
@@ -21,8 +26,11 @@
   &__link {
     display: inline-block;
     text-decoration: none;
-    margin-right: 15px;
+    margin-left: 15px;
     position: relative;
+    color: $text-black-700;
+    @include default-transition;
+    @include cursor;
     &::before {
       content: "";
       position: absolute;
@@ -38,11 +46,15 @@
   &__link:hover::before {
     width: 76%;
   }
+  &__input {
+    display: none;
+  }
+
   .btn-reset {
     display: none;
   }
 
-  #hamburger {
+  #nav__toggle--btn {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -90,13 +102,25 @@
     }
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: $breakpoint-xl) {
+  .nav {
+    &__link {
+      margin-left: 10px;
+    }
+  }
+}
+@media screen and (max-width: $breakpoint-lg) {
   .nav {
     &__items {
       display: none;
     }
     .btn-reset {
-      display: inline-block;
+      display: block;
     }
+  }
+}
+@media screen and (max-width: $breakpoint-md) {
+  .nav__brand span {
+    display: none;
   }
 }
