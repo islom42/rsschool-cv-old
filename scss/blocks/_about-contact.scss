@@ -1,0 +1,18 @@
+.about-contact {
+  padding-top: 50px;
+  &__items {
+    @include flex-default;
+    @include reset-list;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+  }
+  &__item {
+    width: 33.3%;
+    border-left: 1px solid $bg-black-700;
+  }
+  &__item:first-child {
+    border: none;
+  }
+}

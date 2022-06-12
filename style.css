@@ -378,7 +378,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Arial", sans-serif;
@@ -416,6 +415,16 @@ img {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+}
+
+.col-4 {
+  width: 35%;
+  padding-left: 100px;
+}
+
+.col-6 {
+  width: 65%;
+  padding-right: 20px;
 }
 
 /* Effects styles */
@@ -648,7 +657,6 @@ img {
 .container {
   max-width: 1230px;
   width: 1130px;
-  min-height: 100vh;
   margin: 50px auto;
   border-radius: 5px solid;
   -webkit-box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
@@ -900,5 +908,146 @@ img {
 
 .nav__input:checked + .nav__dark::after {
   right: -12px;
+}
+
+.about-me {
+  padding-top: 50px;
+}
+
+.about-me__image {
+  width: 240px;
+  height: 240px;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+          box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-me__image--img {
+  display: block;
+  width: 225px;
+  height: 225px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+          box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+}
+
+.about-me__title {
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.about-me__title span {
+  display: inline-block;
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  position: relative;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.about-me__title span::after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  -webkit-transform: scale(1.07, 1.05) skewX(-15deg);
+          transform: scale(1.07, 1.05) skewX(-15deg);
+  -webkit-box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+          box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+}
+
+.about-contact {
+  padding-top: 50px;
+}
+
+.about-contact__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid #0d6efd;
+  border-bottom: 1px solid #0d6efd;
+}
+
+.about-contact__item {
+  width: 33.3%;
+  border-left: 1px solid #555555;
+}
+
+.about-contact__item:first-child {
+  border: none;
+}
+
+.main {
+  border-bottom: 2px solid #0d6efd;
+}
+
+.about {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about__social--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
