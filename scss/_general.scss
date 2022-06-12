@@ -33,6 +33,12 @@ body.dark {
   .nav__brand {
     color: $text-dark-black-700;
   }
+  .nav__items {
+    background-color: $bg-dark-black-50;
+  }
+  .footer__link fill {
+    color: white;
+  }
 }
 
 img {
@@ -49,4 +55,24 @@ img {
 .col-6 {
   width: 65%;
   padding-right: 20px;
+}
+.about-icon {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: $text-black-600;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: $breakpoint-md) {
+  body {
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+  .about-icon {
+    margin: 0;
+  }
 }

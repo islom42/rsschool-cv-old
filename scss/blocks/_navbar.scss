@@ -22,6 +22,7 @@
   &__items {
     @include flex-default;
     @include reset-list;
+    @include default-transition;
   }
   &__link {
     display: inline-block;
@@ -111,16 +112,41 @@
 }
 @media screen and (max-width: $breakpoint-lg) {
   .nav {
+    &__dark {
+      font-size: 20px;
+      margin-left: auto;
+    }
     &__items {
       display: none;
+      text-align: right;
+      background-color: $bg-black-50;
+      position: absolute;
+      top: 150px;
+      width: 90%;
+      right: 5%;
+      padding-right: 20px;
     }
     .btn-reset {
       display: block;
     }
   }
 }
+@media screen and (max-width: $breakpoint-lg) {
+  .nav.responsive {
+    ul {
+      display: block;
+      a {
+        padding: 3px 0;
+      }
+    }
+  }
+}
 @media screen and (max-width: $breakpoint-md) {
   .nav__brand span {
     display: none;
+  }
+  .nav__items {
+    width: 80%;
+    right: 10%;
   }
 }

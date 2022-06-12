@@ -5,6 +5,7 @@
   border-radius: 5px solid;
   box-shadow: $outer-shadow;
   @include default-transition;
+  overflow: hidden;
 }
 @media screen and (max-width: $breakpoint-xl) {
   .container {

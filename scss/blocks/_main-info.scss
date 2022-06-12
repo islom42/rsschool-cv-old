@@ -1,0 +1,117 @@
+.main-info {
+  border-bottom: 2px solid $primary-color;
+  &__title {
+    text-transform: uppercase;
+    width: 100%;
+    @include cursor;
+  }
+  &__about {
+    @include flex-default;
+    padding: 50px 0;
+    align-items: flex-start;
+  }
+  &__social {
+    @include flex-default;
+    align-items: flex-start;
+    flex-direction: column;
+    .social__items {
+      @include reset-list;
+    }
+    .social__item {
+      @include flex-default;
+      @include cursor;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+    .social__link {
+      @include flex-default;
+      justify-content: center;
+      position: relative;
+      box-shadow: $outer-shadow;
+      @include default-transition;
+      @include cursor;
+      i {
+        font-size: 25px;
+      }
+      &:hover .fa-linkedin {
+        color: #2587bc;
+      }
+      &:hover .fa-github {
+        color: black;
+      }
+      &:hover .fa-facebook {
+        color: blue;
+      }
+      &:hover .fa-telegram {
+        color: rgb(51, 173, 255);
+      }
+      &:hover {
+        -webkit-box-shadow: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+        box-shadow: $outer-shadow-0;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        z-index: -1;
+        border-radius: 30px;
+      }
+      &:hover::after {
+        -webkit-box-shadow: inset 3px 3px 3px #d0d0d0,
+          inset -3px -3px 3px #f8f8f8;
+        box-shadow: $inner-shadow;
+        border-radius: 30px;
+      }
+    }
+  }
+  &__description {
+    @include cursor;
+  }
+}
+#education {
+  .education-info {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+  }
+  .education-info:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 8px;
+    height: 8px;
+    background-color: $bg-black-700;
+    transform: rotate(-45deg);
+  }
+}
+@media screen and (max-width: $breakpoint-md) {
+  .main-info {
+    &__about {
+      display: block;
+      text-align: center;
+      align-items: center;
+    }
+  }
+  .social__items {
+    @include flex-default;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .social__item {
+    display: block !important;
+  }
+  .col-4,
+  .col-6 {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
