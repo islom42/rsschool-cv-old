@@ -1,6 +1,6 @@
 const body = document.querySelector(".body");
 const checkbox = document.getElementById("checkbox");
-const toggleBtn = document.getElementById("nav__toggle--btn");
+const toggleBtn = document.getElementById("nav__toggle-btn");
 const toggleNav = document.querySelector(".nav");
 
 toggleBtn.addEventListener("click", () => {

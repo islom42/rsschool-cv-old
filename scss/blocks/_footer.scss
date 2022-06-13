@@ -15,6 +15,7 @@
   }
   &__link {
     text-decoration: none;
+    color: $bg-dark-black-50;
     @include default-transition;
   }
   .fa-github {

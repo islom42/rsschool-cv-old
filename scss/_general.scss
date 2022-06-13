@@ -26,6 +26,10 @@ body {
 
 body.dark {
   background-color: $bg-dark-black-50;
+  color: $bg-black-50;
+  i{
+    color: $bg-black-50;
+  }
   .container {
     box-shadow: $outer-dark-shadow;
   }
@@ -38,6 +42,12 @@ body.dark {
   }
   .footer__link fill {
     color: white;
+  }
+  .footer__link{
+    color: $bg-black-50;
+    fill{
+      color: $bg-black-50;
+    }
   }
 }
 
@@ -75,4 +85,11 @@ img {
   .about-icon {
     margin: 0;
   }
+}
+@media screen and (max-width: $breakpoint-sm) {
+  body {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  
 }
