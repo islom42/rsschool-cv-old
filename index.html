@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV#3 - Cross-check</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images//favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images//favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images//favicon_io/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/webfonts/all.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <!-- Header section -->
+      <header id="header" class="header">
+        <nav class="nav">
+          <a href="index.html" class="nav__brand">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 500 500"
+              width="45"
+              height="45"
+            >
+              <title>logo</title>
+              <defs>
+                <image
+                  width="500"
+                  height="500"
+                  id="img1"
+                  href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAMAAAD8CC+4AAAAAXNSR0IB2cksfwAAAuVQTFRF////hrb+DW79KoD9hrf+KH794e3/7PT/3uv/0+X/y+D/xNz/1OX/7fT/zuH/lb/+XJ3+L4L9MoT9YJ/+mcL+0uT/+vz/ttP+ZqP+HHf9I3v9car+wdr+/P3/+fz/JXz9pMj++/3/ocf+MIP9q83+/v7/4u3/T5b+WZv+/f7/F3T9IHn9qsz+6/P/Upj+YaD+8Pb/3Or/KX/9Inv92un/2Oj/LYH95vD/JHz94Oz/Nob93ev/SpL+WJv+EHD9FHL92ej/Poz9UJb+nMT+s9L+Jn39u9b+SZL9wtv+Dm/93+z/Z6T+9fn/0eT/frL+PIr9UZf+GHX97/X/9/r/6fL/0OP/yt//x93/Gnb9dq3+IXr9N4f9TJT+J339MYT9m8P+q8z+P4z9S5P+zeH/Vpr+6PH/LIH95/H/1uf/Hnj94+7/6vL/XZ7+ncT+r8/+ZKL+rM7+KX79LoL9udX+t9T+wNn+z+L/w9v/zOD/G3f9RZD98/j/xdz/V5r+aaX+sdD+9vr/qMv+c6v+TZT+5O//ibj+j7z+EXD9yd//baf+rc7+HXj9bqj+M4X9jrv+i7r+5fD/TpX+qcv+sND+aqb+VZn+xt3/EnH9kr7+ea/+X5/+D2/9Oon9FnT9eK7+1eb/Xp7+d67+da3+pcn+FnP9tNL+W53+Wpz+dKz+7vX/E3H9K4D9FXP9l8D+g7X+PYv9RpD9cqr+n8b+cKn+uNT+YaH+b6n+4+//vtj+VJn+grT+8fb/U5j+9Pj/msP+Qo792+n/f7L+bKf+8vf/irn+a6b+lsD+osf+vdf+yN7/ZaP+aKX+eq/+NIX9fbH+iLj+Y6L+lL/+YqH+tdP+SJH9R5H9Q479v9n+RI/9k77+9vn/vNf+e7D+utX+QY39nsX+OYj9QI39kLz+GXX9kb3+hbb+OIj9jLr+p8r+oMb+jbv+psr+fLH+gbP+mMH+o8j+H3n9NYb9O4n9rs/++Pv/1+f/gLP+bEeTEQAAAPd0Uk5TAP//////4DD//////yD//////////wD///////8AAP//AP///wDQ//8A////QP//AP///////5D/8P///////////////////////wD//////wAAYP////////////////////9w/4D//8BQ////////////////////AP////8A////sP//////////////oP///////////////////////////////xD/////////////////wP///wD/AP//////AP////////////////////////////8A/////////////////////////////////wD//xKyx7QAABs4SURBVHic7d15gBXFncDxorkRBwEdDhecUYY4gARUFBQGxEUYToEMDmrwAHFAEw8ERUURjYgaFQ8URhQVRBGMByhqori6G0WS9VhdwSvrEbO6Rt1N8vfOAcy86q7q7rrrV7/vn/Kmq977+Gbe66sICbUWLWzPADNdiyhC9cCqM0f1wGowR/Wg2muO6gG13xzVg6mZOaoHUoE5qgcRZY7qARQzR3XwJZijOvASzVEddAxzVAcc0xzVwcYxR3WgUeYtW6I6+FoVGrdu06Y1qgOvBW1OCKoDL8Ec1YGXaI7qoGOYozrgmOaoDjaOOaoDjWuO6iBLMUd1gKWaozq4MpijOrAymaM6qDKaozqgMpujOphymKM6kHKZozqIcpqjOoBym6O69wmYo7rnCZmjutcJmrul3rZd+w4HdOjY7kCLc/AoYXNX1Is6HdS52SS6dD34ECvz8CgJcwfUi7t17xHF63noP/UyPRWPkjK3rd774MMSxBtrWVJqdC4eJWluVb30cOoKDKoj+pSZm4xHSZtbVO/7Ey55fUe2NTUZj1Jgbku9vFO/VPMo6j/AyGR8Som5HfWjBmYgr++ngwzMxqMUmdtQH3x0RvO6b3B9tc/Go5SZm1dvf0xm87qP8ai+P4XmptXbJ30156gfq3U2HqXU3Kz6EPaX8+SOO17jbDxKsXmd+lBT6sPymkfRCbhHnmgwJ+REQ+rlw3ObR9EITZPxKQ3mxtS598Jh1knPZDyKet2GKjE3pF5UIYQ+cpSOyXgUbX6iqg0bUO91kpB5FI1WPxef0mZuQv1kQfMo+mflc/Eojeb61UvHCKN3CfiQm1Zz7ep9hM2j6BS1U/Eozeaa1ctE/6LXN1blTHxKu7le9XES5lHleIUz8SgD5lrVJ8igB3qKthFzjeoTs5w3we64ED/KGTLXpy71272uSYrm4VHGzLWpT5ZED29frEFzXepTJNFPVTILjzJqrke9fKokek8F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"
+                />
+              </defs>
+              <style></style>
+              <use id="Background" href="#img1" x="0" y="0" />
+            </svg>
+            <span>Islom<b>Dev</b></span>
+          </a>
+          <ul class="nav__items">
+            <li class="nav__item">
+              <input
+                class="nav__input"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+              />
+              <label for="checkbox" class="nav__dark">
+                <span class="nav__dark-circle"></span>
+              </label>
+            </li>
+            <li class="nav__item">
+              <a href="#about-me" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about-contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <button class="btn-reset">
+            <span id="nav__toggle-btn">
+              <svg width="43" height="43" viewBox="0 0 100 100">
+                <path
+                  class="line line1"
+                  d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path
+                  class="line line3"
+                  d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                />
+              </svg>
+            </span>
+          </button>
+        </nav>
+      </header>
+      <!-- /Header section -->
+
+      <!-- Main section -->
+      <main class="main">
+        <section class="about-me">
+          <h2 id="about-me" class="visually-hidden">About me section</h2>
+          <div class="about-me__items">
+            <div class="about-me__image">
+              <img
+                src="./assets/images//me.png"
+                class="about-me__image-img"
+                alt="user image"
+              />
+            </div>
+            <h1 class="about-me__title"><span> Islom Numanov </span></h1>
+          </div>
+        </section>
+        <section class="about-contact" id="about-contact">
+          <h2 class="visually-hidden">About contact</h2>
+          <ul class="about-contact__items">
+            <li class="about-contact__item">+998(99)981-66-27</li>
+            <li class="about-contact__item">islomnumnaov.uz@gmail.com</li>
+            <li class="about-contact__item">Uzbekistan, Tashkent</li>
+          </ul>
+        </section>
+      </main>
+      <!-- /Main section -->
+
+      <!-- Article info section -->
+      <article>
+        <h2 class="visually-hidden">About information</h2>
+        <!-- Social media and about me -->
+        <section class="main-info" id="social">
+          <h2 class="visually-hidden">About main</h2>
+          <div class="main-info__about row">
+            <aside class="main-info__social social col-4">
+              <h3 class="main-info__title">Social media</h3>
+              <ul class="social__items">
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/islom-numanov-19a029217/"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <span class="social__subtitle">Linkedin</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://github.com/islomnumanovuz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <span class="social__subtitle">GitHub</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://facebook.com/islomnumanovuz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <span class="social__subtitle">Facebook</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://t.me//islomnumanov_uz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-telegram"></i>
+                  </a>
+                  <span class="social__subtitle">Telegram</span>
+                </li>
+              </ul>
+            </aside>
+            <aside class="main-info__summary col-6">
+              <h3 class="main-info__title">Summary</h3>
+              <p class="main-info__description">
+                I am Islom Numanov. I am a Front-end developer. I solve
+                problems, automate things, help businesses and people to grow
+                and improve life. I am always open to collaborating on projects
+                and innovative/disruptive ideas. Find out more about me & feel
+                free to connect with me.
+              </p>
+            </aside>
+          </div>
+        </section>
+        <!-- Social media and about me -->
+
+        <!-- Skills and work experience -->
+        <section class="main-info" id="skills">
+          <h2 class="visually-hidden">About skills</h2>
+          <div class="main-info__about row">
+            <aside class="main-info__social social col-4">
+              <h3 class="main-info__title">Skills</h3>
+              <ul class="social__items">
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/islom-numanov-19a029217/"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-html5"></i>
+                  </a>
+                  <span class="social__subtitle">HTML5</span>
+                </li>
+                <li class="social__item" title="In Addition BEM, Bootstrap 4/5">
+                  <a
+                    target="_blank"
+                    href="https://github.com/islomnumanovuz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-css3-alt"></i>
+                  </a>
+                  <span class="social__subtitle">CSS3</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://facebook.com/islomnumanovuz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-js-square"></i>
+                  </a>
+                  <span class="social__subtitle">JavaScript</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://t.me//islomnumanov_uz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-react"></i>
+                  </a>
+                  <span class="social__subtitle">ReactJS</span>
+                </li>
+                <li class="social__item social__item-last">
+                  <a
+                    target="_blank"
+                    href="https://t.me//islomnumanov_uz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fab fa-figma"></i>
+                  </a>
+                  <span class="social__subtitle">Figma</span>
+                </li>
+              </ul>
+            </aside>
+            <aside class="main-info__summary col-6">
+              <h3 class="main-info__title">Work Experience</h3>
+              <ol class="main-info__experience-items">
+                <li class="main-info__experience-item">
+                  <span>JUNE 2021 - NOVERMBER 2021 / Uzbekistan, Andizhan</span>
+                  <b><q>Genius</q></b>education center - Assistent of Front-end mentor
+                </li>
+                <li class="main-info__experience-item">
+                  <span>NOVERMBER 2021 - JANUARY 2022 / Uzbekistan, Tashkent</span>
+                  <b><q>Udevs.io</q></b> - IT-Outsourcing Company (bootcamp)
+                </li>
+              </ol>
+            </aside>
+          </div>
+        </section>
+        <!-- Skills and work experience -->
+
+        <!-- About hobbies and education -->
+        <section class="main-info" id="education">
+          <h2 class="visually-hidden">About Hobbies and Education</h2>
+          <div class="main-info__about row">
+            <aside class="main-info__social social col-4">
+              <h3 class="main-info__title">Hobbies</h3>
+              <ul class="social__items">
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/islom-numanov-19a029217/"
+                    class="social__link about-icon"
+                  >
+                    <i class="fa fa-music-alt"></i>
+                  </a>
+                  <span class="social__subtitle">Music</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://github.com/islomnumanovuz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fa fa-chalkboard-teacher"></i>
+                  </a>
+                  <span class="social__subtitle">Mentoring</span>
+                </li>
+                <li class="social__item">
+                  <a
+                    target="_blank"
+                    href="https://facebook.com/islomnumanovuz"
+                    class="social__link about-icon"
+                  >
+                    <i class="fa fa-dumbbell"></i>
+                  </a>
+                  <span class="social__subtitle">GYM</span>
+                </li>
+              </ul>
+            </aside>
+            <aside class="main-info__summary col-6">
+              <h3 class="main-info__title">Education</h3>
+              <p>
+                SEPTEMBER 2017 - MAY 2020 / Uzbekistan, Andizhan
+                <span class="education-info">
+                  Andizhan Academic lyceum <b><q>MINISTRY OF INTERNAL AFFAIRS OF THE REPUBLIC OF UZBEKISTAN</q></b> 
+                </span>
+              </p>
+              <p>
+                JUNE 2022 - ... / Turkey, Istanbul
+                <span class="education-info">
+                  Front-end Intro course <b><q>The Rolling Scope School</q></b> 
+                </span>
+              </p>
+            </aside>
+          </div>
+        </section>
+        <!-- About hobbies and education -->
+
+        <!-- Code Example and Language -->
+        <section class="main-info" id="codeExample">
+          <h2 class="visually-hidden">Language and Code example</h2>
+          <div class="main-info__about row">
+            <aside class="main-info__social social col-4">
+              <h3 class="main-info__title">Language</h3>
+              <ul class="social__items language-items">
+                <li class="social__item language-items__item">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/islom-numanov-19a029217/"
+                    class="social__link language-items__link about-icon"
+                  >
+                    <img
+                      src="./assets/images//flag-img/united-kingdom.png"
+                      width="40"
+                      height="40"
+                      alt="UK flag"
+                    />
+                  </a>
+                  <span class="social__subtitle">English (B1)</span>
+                </li>
+                <li class="social__item language-items__item">
+                  <a
+                    target="_blank"
+                    href="https://github.com/islomnumanovuz"
+                    class="social__link language-items__link about-icon"
+                  >
+                    <img
+                      src="./assets/images//flag-img/russia.png"
+                      width="40"
+                      height="40"
+                      alt="Russia flag"
+                    />
+                  </a>
+                  <span class="social__subtitle">Russian</span>
+                </li>
+                <li class="social__item language-items__item">
+                  <a
+                    target="_blank"
+                    href="https://facebook.com/islomnumanovuz"
+                    class="social__link language-items__link about-icon"
+                  >
+                    <img
+                      src="./assets/images//flag-img/turkey.png"
+                      width="40"
+                      height="40"
+                      alt="Turkey flag"
+                    />
+                  </a>
+                  <span class="social__subtitle">Turkish</span>
+                </li>
+                <li class="social__item language-items__item">
+                  <a
+                    target="_blank"
+                    href="https://facebook.com/islomnumanovuz"
+                    class="social__link language-items__link about-icon"
+                  >
+                    <img
+                      src="./assets/images//flag-img/uzbekistan.png"
+                      width="40"
+                      height="40"
+                      alt="Turkey flag"
+                    />
+                  </a>
+                  <span class="social__subtitle">Uzbek (native)</span>
+                </li>
+              </ul>
+            </aside>
+            <aside class="main-info__summary col-6">
+              <h3 class="main-info__title">Code example</h3>
+              <p>
+                Write a JavaScript function to hide email addresses to protect
+                from unauthorized user.
+              </p>
+              <pre>
+<code class="main-info__code-example">
+const protect_email = (email) => { 
+  return (
+    email.split("").slice(email[0], 5).join("") + "..." +
+    email.split("").slice(email.indexOf("@"),
+    email.length).join("") 
+  )}
+//console.log(protect_email("islomnumanov.uz@gmail.com"));
+</code>
+                </pre>
+            </aside>
+          </div>
+        </section>
+        <!-- Code Example and Language -->
+      </article>
+      <!-- Article info section -->
+
+      <!-- Footer section -->
+      <footer id="footer" class="footer">
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a href="https://github.com/islomnumanovuz" class="footer__link">
+              <i class="fab fa-github"></i>
+              <span class="footer__link-item"> Islom Numanov</span>
+            </a>
+          </li>
+          <li class="footer__item">
+            Made with love <i class="fas fa-heart"></i
+            ><i class="fas fa-heart"></i><i class="fas fa-heart"></i> 2022
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://rs.school/js/"
+              target="_blank"
+              class="footer__link"
+            >
+              <svg
+                width="75"
+                height="75"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 552.8 205.3"
+              >
+                <style>
+                  .st0 {
+                    fill: #fff;
+                  }
+                  .st1 {
+                    clip-path: url(#SVGID_2_);
+                  }
+                  .st2 {
+                    clip-path: url(#SVGID_4_);
+                  }
+                  .st3 {
+                    clip-path: url(#SVGID_6_);
+                  }
+                  .st4 {
+                    clip-path: url(#SVGID_8_);
+                  }
+                  .st5 {
+                    fill: #fff;
+                    stroke: #000;
+                    stroke-width: 4;
+                    stroke-miterlimit: 10;
+                  }
+                  .st6 {
+                    clip-path: url(#SVGID_8_);
+                  }
+                  .st6,
+                  .st7 {
+                    fill: none;
+                    stroke: #000;
+                    stroke-width: 4;
+                    stroke-miterlimit: 10;
+                  }
+                  .st8,
+                  .st9 {
+                    clip-path: url(#SVGID_10_);
+                  }
+                  .st9 {
+                    fill: none;
+                    stroke: #000;
+                    stroke-width: 4;
+                    stroke-miterlimit: 10;
+                  }
+                </style>
+                <title>rs_school_js</title>
+                <path
+                  d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"
+                />
+                <path
+                  d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"
+                />
+                <path
+                  d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"
+                />
+                <path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z" />
+                <ellipse
+                  transform="rotate(-37.001 420.46 67.88)"
+                  class="st0"
+                  cx="420.5"
+                  cy="67.9"
+                  rx="63"
+                  ry="51.8"
+                />
+                <defs>
+                  <ellipse
+                    id="SVGID_1_"
+                    transform="rotate(-37.001 420.46 67.88)"
+                    cx="420.5"
+                    cy="67.9"
+                    rx="63"
+                    ry="51.8"
+                  />
+                </defs>
+                <clipPath id="SVGID_2_">
+                  <use xlink:href="#SVGID_1_" overflow="visible" />
+                </clipPath>
+                <g class="st1">
+                  <path
+                    transform="rotate(-37.001 420.82 68.353)"
+                    class="st0"
+                    d="M330.9-14.2h179.8v165.1H330.9z"
+                  />
+                  <g id="Layer_2_1_">
+                    <defs>
+                      <path
+                        id="SVGID_3_"
+                        transform="rotate(-37.001 420.82 68.353)"
+                        d="M330.9-14.2h179.8v165.1H330.9z"
+                      />
+                    </defs>
+                    <clipPath id="SVGID_4_">
+                      <use xlink:href="#SVGID_3_" overflow="visible" />
+                    </clipPath>
+                    <g id="Layer_1-2" class="st2">
+                      <ellipse
+                        transform="rotate(-37.001 420.46 67.88)"
+                        class="st0"
+                        cx="420.5"
+                        cy="67.9"
+                        rx="63"
+                        ry="51.8"
+                      />
+                      <defs>
+                        <ellipse
+                          id="SVGID_5_"
+                          transform="rotate(-37.001 420.46 67.88)"
+                          cx="420.5"
+                          cy="67.9"
+                          rx="63"
+                          ry="51.8"
+                        />
+                      </defs>
+                      <clipPath id="SVGID_6_">
+                        <use xlink:href="#SVGID_5_" overflow="visible" />
+                      </clipPath>
+                      <g class="st3">
+                        <path
+                          transform="rotate(-37 420.799 68.802)"
+                          class="st0"
+                          d="M357.8 17h125.9v103.7H357.8z"
+                        />
+                        <defs>
+                          <path
+                            id="SVGID_7_"
+                            transform="rotate(-37 420.799 68.802)"
+                            d="M357.8 17h125.9v103.7H357.8z"
+                          />
+                        </defs>
+                        <clipPath id="SVGID_8_">
+                          <use xlink:href="#SVGID_7_" overflow="visible" />
+                        </clipPath>
+                        <g class="st4">
+                          <ellipse
+                            transform="rotate(-37.001 420.46 67.88)"
+                            class="st5"
+                            cx="420.5"
+                            cy="67.9"
+                            rx="63"
+                            ry="51.8"
+                          />
+                        </g>
+                        <path
+                          transform="rotate(-37 420.799 68.802)"
+                          class="st6"
+                          d="M357.8 17h125.9v103.7H357.8z"
+                        />
+                        <ellipse
+                          transform="rotate(-37.001 420.46 67.88)"
+                          class="st7"
+                          cx="420.5"
+                          cy="67.9"
+                          rx="63"
+                          ry="51.8"
+                        />
+                        <path
+                          transform="rotate(-37 420.799 68.802)"
+                          class="st0"
+                          d="M357.8 17h125.9v103.7H357.8z"
+                        />
+                        <defs>
+                          <path
+                            id="SVGID_9_"
+                            transform="rotate(-37 420.799 68.802)"
+                            d="M357.8 17h125.9v103.7H357.8z"
+                          />
+                        </defs>
+                        <clipPath id="SVGID_10_">
+                          <use xlink:href="#SVGID_9_" overflow="visible" />
+                        </clipPath>
+                        <g class="st8">
+                          <ellipse
+                            transform="rotate(-37.001 420.46 67.88)"
+                            class="st5"
+                            cx="420.5"
+                            cy="67.9"
+                            rx="63"
+                            ry="51.8"
+                          />
+                        </g>
+                        <path
+                          transform="rotate(-37 420.799 68.802)"
+                          class="st9"
+                          d="M357.8 17h125.9v103.7H357.8z"
+                        />
+                        <path
+                          transform="rotate(-37.001 420.82 68.353)"
+                          class="st7"
+                          d="M330.9-14.2h179.8v165.1H330.9z"
+                        />
+                      </g>
+                      <ellipse
+                        transform="rotate(-37.001 420.46 67.88)"
+                        class="st7"
+                        cx="420.5"
+                        cy="67.9"
+                        rx="63"
+                        ry="51.8"
+                      />
+                      <path
+                        d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </footer>
+      <!-- Footer section -->
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.container {
+  max-width: 1230px;
+  width: 1130px;
+  margin: 50px auto;
+  border-radius: 5px solid;
+  box-shadow: $outer-shadow;
+  @include default-transition;
+}
+@media screen and (max-width: $breakpoint-xl) {
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: $breakpoint-md) {
+  .container {
+    width: 80%;
+  }
+}

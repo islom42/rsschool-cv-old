@@ -1,0 +1,38 @@
+.footer {
+  padding: 20px;
+  &__items {
+    @include reset-list;
+    @include flex-default;
+  }
+  &__item {
+    @include cursor;
+  }
+  &__items:first-child &__link {
+    @include flex-default;
+    i {
+      margin-right: 8px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: $bg-dark-black-50;
+    @include default-transition;
+  }
+  .fa-github {
+    color: $bg-black-700;
+    font-size: 25px;
+  }
+  .fa-heart {
+    color: red;
+  }
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+  .footer__items {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .footer__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

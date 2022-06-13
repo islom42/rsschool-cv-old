@@ -1,0 +1,42 @@
+.nav {
+  &__dark {
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: $bg-dark-black-700;
+    border: 1px solid $primary-color;
+    box-shadow: none;
+    overflow: hidden;
+    @include default-transition;
+    @include cursor;
+    &::after {
+      top: -1px;
+      right: 50%;
+      @include nav-dark;
+      @include default-transition;
+    }
+    &::before {
+      content: "🌚";
+      position: absolute;
+      top: -1px;
+      left: 2px;
+      // background-color: $bg-black-700;
+      @include nav-dark;
+      @include default-transition;
+    }
+  }
+
+  &__input:checked + .nav__dark {
+    background-color: $bg-black-700;
+  }
+  &__input:checked + .nav__dark::before {
+    content: "🌞";
+    left: calc(100% - 27px);
+    // background: $bg-dark-black-700;
+  }
+  &__input:checked + .nav__dark::after {
+    right: -12px;
+  }
+}

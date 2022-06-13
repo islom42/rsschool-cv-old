@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  // height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: $bg-black-50;
+  @include default-transition;
+}
+
+body.dark {
+  background-color: $bg-dark-black-50;
+  color: $bg-black-50;
+  i{
+    color: $bg-black-50;
+  }
+  .container {
+    box-shadow: $outer-dark-shadow;
+  }
+  .nav__link,
+  .nav__brand {
+    color: $text-dark-black-700;
+  }
+  .nav__items {
+    background-color: $bg-dark-black-50;
+  }
+  .footer__link fill {
+    color: white;
+  }
+  .footer__link{
+    color: $bg-black-50;
+    fill{
+      color: $bg-black-50;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.btn-reset {
+  @include btn-reset;
+}
+.col-4 {
+  width: 35%;
+  padding-left: 100px;
+}
+.col-6 {
+  width: 65%;
+  padding-right: 20px;
+}
+.about-icon {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: $text-black-600;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: $breakpoint-md) {
+  body {
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+  .about-icon {
+    margin: 0;
+  }
+}
+@media screen and (max-width: $breakpoint-sm) {
+  body {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  
+}
