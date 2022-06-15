@@ -1,0 +1,33 @@
+.portfolio{
+  &__items{
+    @include flex-default;
+    padding: 0;
+    @include reset-list;
+  }
+  &__item{
+    max-width: 32%;
+    background-color: $bg-black-50;
+    border-radius: 5px;
+    box-shadow: $outer-shadow;
+    padding: 8px;
+  }
+  &__link{
+    text-decoration: none;
+    color: $bg-black-700;
+  }
+  &__images{
+    display: block;
+  }
+}
+@media screen and (max-width: $breakpoint-md) {
+  .portfolio{
+    &__items{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    &__item{
+      max-width: 80%;
+      margin-bottom: 5px;
+    }
+  }
+}
